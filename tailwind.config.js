@@ -4,13 +4,14 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        '57px': '57px',
-        '518px': '518px',
         '28px': '28px',
+        '57px': '57px',
+        '152px': '152px',
+        '518px': '518px',
       },
       height: {
-        '80px': '80px',
         '28px': '28px',
+        '80px': '80px',
       },
       outlineOffset: {
         'inner-1': '-1px',
