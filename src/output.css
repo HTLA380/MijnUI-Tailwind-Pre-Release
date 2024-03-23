@@ -691,7 +691,7 @@ video {
   width: 100%;
 }
 
-.max-w-512px{
+.max-w-lg{
   max-width: 32rem;
 }
 
