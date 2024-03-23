@@ -3,7 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../output.css" />
     <title>Icon Button</title>
   </head>
-  <body></body>
+  <body
+    class="flex items-center justify-center w-full min-h-screen bg-slate-100">
+    <div class="flex flex-col gap-5 p-5 bg-white rounded-md shadow-sm">
+      <!-- =================== primary icon-button =================== -->
+      <button
+        class="inline-flex items-center justify-center w-8 h-8 text-sm font-medium text-white transition-colors bg-black rounded-md shadow sm:w-10 sm:h-10 hover:bg-black/90">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-4 h-4 sm:w-5 sm:h-5">
+          <path
+            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+        </svg>
+      </button>
+
+      <!-- =================== secondary icon-button =================== -->
+      <button
+        class="inline-flex items-center justify-center w-8 h-8 text-sm font-medium text-black transition-colors rounded-md shadow sm:w-10 sm:h-10 bg-neutral-200 hover:bg-neutral-200/90">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-4 h-4 sm:w-5 sm:h-5">
+          <path
+            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+        </svg>
+      </button>
+
+      <!-- =================== outline icon-button =================== -->
+      <button
+        class="inline-flex items-center justify-center w-8 h-8 text-sm font-medium text-black transition-colors bg-white rounded-md shadow-sm sm:w-10 sm:h-10 outline-offset-inner-1 outline outline-1 outline-neutral-300 hover:bg-neutral-300">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-4 h-4 sm:w-5 sm:h-5">
+          <path
+            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+        </svg>
+      </button>
+
+      <!-- =================== destructive icon-button =================== -->
+      <button
+        class="inline-flex items-center justify-center w-8 h-8 text-sm font-medium text-white transition-colors bg-red-600 rounded-md shadow sm:w-10 sm:h-10 hover:bg-red-600/90">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-4 h-4 sm:w-5 sm:h-5">
+          <path
+            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+        </svg>
+      </button>
+
+      <!-- =================== ghost icon-button =================== -->
+      <button
+        class="inline-flex items-center justify-center w-8 h-8 text-sm font-medium text-black transition-colors bg-transparent rounded-md sm:w-10 sm:h-10 hover:bg-black hover:text-white">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          class="w-4 h-4 sm:w-5 sm:h-5">
+          <path
+            d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
+        </svg>
+      </button>
+    </div>
+  </body>
 </html>
