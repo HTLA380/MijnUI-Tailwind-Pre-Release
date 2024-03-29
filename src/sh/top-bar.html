@@ -12,7 +12,7 @@
       <br />
 
       <div
-        class="w-1440px flex items-center justify-between bg-white py-2 px-3 border-b border-neutral-300"
+        class="max-w-1440px w-full flex items-center justify-between bg-white py-2 px-3 border-b border-neutral-300"
       >
         <div class="flex items-center gap-4">
           <!-- menu-icon -->
@@ -39,8 +39,31 @@
 
         <div class="flex items-center gap-4">
           <!-- search input -->
-          <!-- TODO: -->
-          <div>Search input</div>
+
+          <div
+            class="flex items-center justify-between max-w-xs bg-white px-3 py-2 rounded-md outline-offset-inner-1 outline outline-1 outline-neutral-300 focus-within:outline-2 focus-within:outline-black focus-within:outline-offset-inner-2"
+          >
+            <!-- leading icon -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="w-5 h-5"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+
+            <!-- input tag -->
+            <input
+              type="text"
+              placeholder="Search"
+              class="flex-1 px-1 placeholder-neutral-500 outline-none"
+            />
+          </div>
 
           <!-- question-mark-circle -->
           <svg
