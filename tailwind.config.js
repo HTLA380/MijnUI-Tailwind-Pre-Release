@@ -9,7 +9,7 @@ module.exports = {
       width: {
         '10px': '0.625rem',
         '28px': '1.75rem',
-        '52px': '3.125rem',
+        '52px': '3.25rem',
         '57px': '3.5625rem',
         '152px': '9.5rem',
         '100px': '6.25rem',
@@ -24,11 +24,12 @@ module.exports = {
         '1440px': '90rem',
       },
       maxWidth: {
-        '1127px': '70.4375rem',
+        '1130px': '70.66rem',
       },
       height: {
         '28px': '1.75rem',
         '44px': '2.75rem',
+        '52px': '3.25rem',
         '80px': '5rem',
         '80vh': '80vh',
       },
