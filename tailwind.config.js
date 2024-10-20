@@ -3,7 +3,7 @@ import { createPreset } from "fumadocs-ui/tailwind-plugin"
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./mijn-ui/**/*.{ts,tsx}",
+    "./mijnui-react/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./content/**/*.{ts,tsx,md,mdx}",
     "./mdx-components.{ts,tsx}",
@@ -71,13 +71,8 @@ export default {
             "hsl(var(--danger-filled-foreground) / <alpha-value>)",
         },
 
-        disabled: {
-          DEFAULT: "hsl(var(--disabled) / <alpha-value>)",
-          foreground: "hsl(var(--disabled-foreground) / <alpha-value>)",
-        },
-
-        "background-border": "hsl(var(--background-border) / <alpha-value>)",
-        "input-border": "hsl(var(--input-border) / <alpha-value>)",
+        border: "hsl(var(--border) / <alpha-value>)",
+        input: "hsl(var(--input-border) / <alpha-value>)",
 
         kanban: "hsl(var(--kanban) / <alpha-value>)",
         ring: "hsl(var(--ring) / <alpha-value>)",

@@ -40,9 +40,6 @@
   --success-foreground: 140 49% 20%; /* green-800 */
   --success-filled-foreground: 0 0% 100%; /* white */
 
-  --disabled: 0 0% 83%; /* neutral-300 */
-  --disabled-foreground: 0 0% 45%; /* neutral 500 */
-
   --ring: 0 0% 100%; /* white */
 
   --input: 0 0% 83%; /* neutral-500 */
