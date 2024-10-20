@@ -3,7 +3,7 @@ title: Theming
 description: Mijn-UI uses Tawildin CSS variables for themeing.
 ---
 
-import ThemesVariableAlert from "../components/themes-variable-alert"
+import ThemesVariableAlert from "../../components/themes-variable-alert"
 import { Tab, Tabs } from "fumadocs-ui/components/tabs"
 
 ---
@@ -13,10 +13,13 @@ import { Step, Steps } from "fumadocs-ui/components/steps"
 ## Creating your own theme
 
 While Mijn-UI doesn't currently have a dedicated theme builder, you can still create your own theme by following these simple steps:
+
 <Steps>
 
 <Step>
- Visit the [Shadcn UI Theme Generator](https://zippystarter.com/tools/shadcn-ui-theme-generator) to design your theme. Once you're done, copy the generated CSS variables.
+  Visit the [Shadcn UI Theme
+  Generator](https://zippystarter.com/tools/shadcn-ui-theme-generator) to design
+  your theme. Once you're done, copy the generated CSS variables.
 </Step>
 
 <Step>
@@ -28,9 +31,9 @@ While Mijn-UI doesn't currently have a dedicated theme builder, you can still cr
 -   --popover: 343.4 100% 95%;
 -   --popover-foreground: 343.4 100% 0%;
 
-+   --surface: 343.4 50% 90%; /* [!code highlight] */ 
-+   --surface-foreground: 343.4 5% 10%; /* [!code highlight] */ 
-  ```
++   --surface: 343.4 50% 90%; /* [!code highlight] */
++   --surface-foreground: 343.4 5% 10%; /* [!code highlight] */
+```
 
 Rename the `--destructive` variables to `--danger` to follow Mijn-UI’s naming convention:
 
@@ -39,31 +42,32 @@ Rename the `--destructive` variables to `--danger` to follow Mijn-UI’s naming 
 -   --destructive-foreground: 343.4 5% 90%;
 -   --radius: 0.5rem;
 
-+   --danger: 0 100% 30%; /* [!code highlight] */ 
-+   --danger-filled-foreground: 343.4 5% 90%; /* [!code highlight] */ 
++   --danger: 0 100% 30%; /* [!code highlight] */
++   --danger-filled-foreground: 343.4 5% 90%; /* [!code highlight] */
 ```
 
 Finally, add any additional colors for states like `success`, `warning`, `danger`, and `info`. Here’s an example:
-  
+
 ```css
---info: 216 76% 52%; /* Blue for informational state */ /* [!code highlight] */ 
---info-foreground: 219 64% 43%; /* Darker blue for better contrast */ /* [!code highlight] */ 
---info-filled-foreground: 0 0% 100%; /* White for filled backgrounds */ /* [!code highlight] */ 
+--info: 216 76% 52%; /* Blue for informational state */ /* [!code highlight] */
+--info-foreground: 219 64% 43%; /* Darker blue for better contrast */ /* [!code highlight] */
+--info-filled-foreground: 0 0% 100%; /* White for filled backgrounds */ /* [!code highlight] */
 
---danger: 0 72% 43%; /* Red for danger state */ /* [!code highlight] */ 
---danger-foreground: 0 82% 31%; /* Darker red */ /* [!code highlight] */ 
---danger-filled-foreground: 0 0% 100%; /* White for filled backgrounds */ /* [!code highlight] */ 
+--danger: 0 72% 43%; /* Red for danger state */ /* [!code highlight] */
+--danger-foreground: 0 82% 31%; /* Darker red */ /* [!code highlight] */
+--danger-filled-foreground: 0 0% 100%; /* White for filled backgrounds */ /* [!code highlight] */
 
---warning: 45 92% 47%; /* Yellow for warnings */ /* [!code highlight] */ 
---warning-foreground: 28 73% 26%; /* Darker yellow */ /* [!code highlight] */ 
---warning-filled-foreground: 0 0% 0%; /* Black for filled backgrounds */ /* [!code highlight] */ 
+--warning: 45 92% 47%; /* Yellow for warnings */ /* [!code highlight] */
+--warning-foreground: 28 73% 26%; /* Darker yellow */ /* [!code highlight] */
+--warning-filled-foreground: 0 0% 0%; /* Black for filled backgrounds */ /* [!code highlight] */
 
---success: 140 76% 38%; /* Green for success */ /* [!code highlight] */ 
---success-foreground: 140 49% 20%; /* Darker green */ /* [!code highlight] */ 
---success-filled-foreground: 0 0% 100%; /* White for filled backgrounds */ /* [!code highlight] */ 
+--success: 140 76% 38%; /* Green for success */ /* [!code highlight] */
+--success-foreground: 140 49% 20%; /* Darker green */ /* [!code highlight] */
+--success-filled-foreground: 0 0% 100%; /* White for filled backgrounds */ /* [!code highlight] */
 ```
 
 And that's it! You've successfully created and customized your own theme for Mijn-UI.
+
 </Step>
 
 </Steps>
@@ -234,11 +238,12 @@ To add new colors, you need to add them to your CSS file and to your tailwind.co
     --card-foreground: 0 0% 0%; /* black */
   }
 
-  .dark {
-  --card: 0 0% 7%; /* #131313 */
-  --card-foreground: 0 0% 96%; /* neutral-100 */
-  }
-```
+.dark {
+--card: 0 0% 7%; /_ #131313 _/
+--card-foreground: 0 0% 96%; /_ neutral-100 _/
+}
+
+````
   </Tab>
 
   <Tab value="tailwind.config.js">
@@ -253,7 +258,8 @@ To add new colors, you need to add them to your CSS file and to your tailwind.co
       },
     },
   }
-```
+````
+
   </Tab>
 </Tabs>
 
