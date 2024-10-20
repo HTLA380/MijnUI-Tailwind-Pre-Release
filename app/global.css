@@ -40,7 +40,7 @@
   --success-foreground: 140 49% 20%; /* green-800 */
   --success-filled-foreground: 0 0% 100%; /* white */
 
-  --ring: 0 0% 100%; /* white */
+  --ring: 0 0% 15%; /* neutral-800 */
 
   --input: 0 0% 83%; /* neutral-500 */
   --kanban: 0 0% 88%; /* slate-300 */
@@ -85,7 +85,7 @@
   --disabled: 0 0% 15%; /* neutral-800 */
   --disabled-foreground: 0 0% 45%; /* neutral-800 */
 
-  --ring: 0 0% 15%;
+  --ring: 0 0% 96%; /* neutral-100 */
 
   --border: 0 0% 15%;
 
