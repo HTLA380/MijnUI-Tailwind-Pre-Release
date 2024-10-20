@@ -106,7 +106,7 @@ body {
 }
 
 #nd-docs-layout aside#nd-sidebar {
-  @apply bg-fd-background/10 backdrop-blur-sm pt-12;
+  @apply sm:bg-fd-background/10 sm:backdrop-blur-sm sm:pt-12;
 
   a {
     @apply pl-4;
