@@ -3,7 +3,7 @@ import React from "react"
 export const AlertDefault = () => {
   return (
     <div className="w-full not-prose min-h-80 p-5 flex justify-center border rounded-lg items-center gap-5">
-      <div className="relative rounded-lg py-4 px-3 [&amp;>span~*]:pl-8 [&amp;>div]:translate-y-[-3px] border text-main-foreground [&amp;>svg]:text-main-foreground w-full max-w-lg">
+      <div className="relative rounded-lg py-4 px-3 [&amp;>span~*]:pl-8 [&amp;>div]:translate-y-[-3px] border text-foreground [&amp;>svg]:text-foreground w-full max-w-lg">
         <span className="translate-y-[-3px] [&amp;>svg]:absolute [&amp;>svg]:left-4 [&amp;>svg]:top-4 [&amp;>svg]:h-5 [&amp;>svg]:w-5">
           <svg
             stroke="currentColor"

@@ -16,7 +16,7 @@ const buttonStyles = cva(
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/90",
         outline:
-          "border border-main-border hover:bg-accent hover:text-accent-foreground",
+          "border border-border hover:bg-accent hover:text-accent-foreground",
         danger: "bg-danger text-danger-filled-foreground hover:bg-danger/90",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         surface:
@@ -76,8 +76,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
         )}
         ref={ref}
         disabled={loading || disabled}
-        {...props}
-      >
+        {...props}>
         {loading && (
           <LuLoader2
             className={applyUnstyled(

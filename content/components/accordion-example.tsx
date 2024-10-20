@@ -17,7 +17,7 @@ export const AccordionActive = () => {
                 viewBox="0 0 24 24"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="h-4 w-4 shrink-0 text-muted-text rotate-180"
+                className="h-4 w-4 shrink-0 text-muted-foreground rotate-180"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,7 @@ export const AccordionClosed = () => {
                 viewBox="0 0 24 24"
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                className="h-4 w-4 shrink-0 text-muted-text"
+                className="h-4 w-4 shrink-0 text-muted-foreground"
                 height="1em"
                 width="1em"
                 xmlns="http://www.w3.org/2000/svg">
