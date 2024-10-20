@@ -40,8 +40,7 @@ const Navbar = () => {
             onClick={() => setOpenSearch(true)}
             variant={"surface"}
             size={"sm"}
-            className="text-muted-foreground gap-2"
-          >
+            className="text-muted-foreground gap-2">
             <LuSearch />
             <span>Search...</span>
             <div className="inline-flex border rounded-full ml-4 gap-1 h-5 px-2 py-px">
@@ -49,7 +48,11 @@ const Navbar = () => {
               <kbd className="text-[0.625rem]">K</kbd>
             </div>
           </Button>
-          <Button variant={"surface"} className="border px-2" asChild>
+          <Button
+            variant={"surface"}
+            size={"sm"}
+            className="border px-2"
+            asChild>
             <Link href={"/"}>
               <LuGithub size={18} />
             </Link>
@@ -62,8 +65,7 @@ const Navbar = () => {
         style={{
           backgroundImage:
             "radial-gradient(60% 100% at 100% 10%, rgba(239, 138, 94, 0.1), rgba(255, 255, 255, 0))",
-        }}
-      ></div>
+        }}></div>
     </header>
   )
 }
@@ -76,8 +78,7 @@ const Logo = ({ ...props }: React.ComponentProps<"svg">) => {
       viewBox="0 0 65 69"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
+      {...props}>
       <path
         d="M29.5909 5.97315C29.5909 7.51623 28.9779 8.9961 27.8868 10.0872L22.9207 15.0534C21.0881 16.886 17.9545 15.588 17.9545 12.9963V10.7931C17.9545 9.25001 18.5675 7.77013 19.6586 6.67901L24.6248 1.71288C26.4574 -0.119741 29.5909 1.1782 29.5909 3.76992V5.97315Z"
         fill="currentColor"
