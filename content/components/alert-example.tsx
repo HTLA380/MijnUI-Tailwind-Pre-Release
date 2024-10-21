@@ -2,9 +2,9 @@ import React from "react"
 
 export const AlertDefault = () => {
   return (
-    <div className="w-full not-prose min-h-80 p-5 flex justify-center border rounded-lg items-center gap-5">
-      <div className="relative rounded-lg py-4 px-3 [&amp;>span~*]:pl-8 [&amp;>div]:translate-y-[-3px] border text-foreground [&amp;>svg]:text-foreground w-full max-w-lg">
-        <span className="translate-y-[-3px] [&amp;>svg]:absolute [&amp;>svg]:left-4 [&amp;>svg]:top-4 [&amp;>svg]:h-5 [&amp;>svg]:w-5">
+    <div className="not-prose flex min-h-80 w-full items-center justify-center gap-5 rounded-lg border p-5">
+      <div className="relative w-full max-w-lg rounded-lg border px-3 py-4 text-foreground [&>div]:translate-y-[-3px] [&>span~*]:pl-8 [&>svg]:text-foreground">
+        <span className="translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:h-5 [&>svg]:w-5">
           <svg
             stroke="currentColor"
             fill="currentColor"
@@ -40,9 +40,9 @@ export const AlertDefault = () => {
 
 export const AlertDanger = () => {
   return (
-    <div className="w-full not-prose min-h-80 p-5 flex justify-center border rounded-lg items-center gap-5">
-      <div className="relative rounded-lg py-4 px-3 [&amp;>span~*]:pl-8 [&amp;>div]:translate-y-[-3px] border border-danger dark:border-danger/80 text-danger dark:text-danger/80 [&amp;>svg]:text-danger w-full max-w-lg">
-        <span className="translate-y-[-3px] [&amp;>svg]:absolute [&amp;>svg]:left-4 [&amp;>svg]:top-4 [&amp;>svg]:h-5 [&amp;>svg]:w-5">
+    <div className="not-prose flex min-h-80 w-full items-center justify-center gap-5 rounded-lg border p-5">
+      <div className="relative w-full max-w-lg rounded-lg border border-danger px-3 py-4 text-danger dark:border-danger/80 dark:text-danger/80 [&>div]:translate-y-[-3px] [&>span~*]:pl-8 [&>svg]:text-danger">
+        <span className="translate-y-[-3px] [&>svg]:absolute [&>svg]:left-4 [&>svg]:top-4 [&>svg]:h-5 [&>svg]:w-5">
           <svg
             stroke="currentColor"
             fill="currentColor"

@@ -11,10 +11,9 @@ import { LuAlertCircle } from "react-icons/lu"
 const ThemesVariableAlert = () => {
   return (
     <Alert
-      className="w-full backdrop-blur-md not-prose"
+      className="not-prose w-full backdrop-blur-md"
       variant="default"
-      status="info"
-    >
+      status="info">
       <AlertIcon>
         <LuAlertCircle />
       </AlertIcon>
@@ -23,9 +22,8 @@ const ThemesVariableAlert = () => {
         When using CSS variables, they must be defined without a color space
         function. For more details, refer to the{" "}
         <Link
-          className="underline decoration-primary text-foreground hover:text-accent-foreground/80 transition-colors"
-          href="https://tailwindcss.com/docs/customizing-colors#using-css-variables"
-        >
+          className="text-foreground underline decoration-primary transition-colors hover:text-accent-foreground/80"
+          href="https://tailwindcss.com/docs/customizing-colors#using-css-variables">
           Tailwind CSS documentation.
         </Link>
       </AlertDescription>

@@ -2,13 +2,13 @@ import React from "react"
 
 export const BreadCrumbsDefault = () => {
   return (
-    <div className="w-full not-prose min-h-80 p-5 flex justify-center border rounded-lg items-center gap-5">
+    <div className="not-prose flex min-h-80 w-full items-center justify-center gap-5 rounded-lg border p-5">
       <nav
-        className="flex flex-wrap items-center justify-start gap-1 text-muted-text flex-col sm:flex-row"
+        className="text-muted-text flex flex-col flex-wrap items-center justify-start gap-1 sm:flex-row"
         aria-label="breadcrumb">
         <span className="flex items-center text-xs">
           <a
-            className="flex items-center text-muted-text hover:text-main-text hover:underline"
+            className="text-muted-text hover:text-main-text flex items-center hover:underline"
             href="/">
             Home
           </a>
@@ -30,7 +30,7 @@ export const BreadCrumbsDefault = () => {
         </span>
         <span className="flex items-center text-xs">
           <a
-            className="flex items-center text-muted-text hover:text-main-text hover:underline"
+            className="text-muted-text hover:text-main-text flex items-center hover:underline"
             href="/">
             Directory
           </a>
@@ -52,7 +52,7 @@ export const BreadCrumbsDefault = () => {
         </span>
         <span className="flex items-center text-xs">
           <a
-            className="flex items-center text-muted-text hover:text-main-text hover:underline"
+            className="text-muted-text hover:text-main-text flex items-center hover:underline"
             href="/">
             Directory
           </a>
@@ -74,7 +74,7 @@ export const BreadCrumbsDefault = () => {
         </span>
         <span className="flex items-center text-xs">
           <a
-            className="flex items-center text-muted-text hover:text-main-text hover:underline"
+            className="text-muted-text hover:text-main-text flex items-center hover:underline"
             href="/">
             Directory
           </a>
@@ -96,7 +96,7 @@ export const BreadCrumbsDefault = () => {
         </span>
         <span className="flex items-center text-xs">
           <a
-            className="flex items-center text-muted-text hover:text-main-text hover:underline"
+            className="text-muted-text hover:text-main-text flex items-center hover:underline"
             href="/">
             Directory
           </a>
@@ -118,7 +118,7 @@ export const BreadCrumbsDefault = () => {
         </span>
         <span className="flex items-center text-xs">
           <a
-            className="flex items-center text-muted-text hover:text-main-text hover:underline"
+            className="text-muted-text hover:text-main-text flex items-center hover:underline"
             href="/">
             Destination
           </a>

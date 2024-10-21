@@ -2,7 +2,7 @@ import React from "react"
 
 export const AlertDialogExample = () => {
   return (
-    <div className="w-full not-prose min-h-80 p-5 flex justify-center border rounded-lg items-center gap-5">
+    <div className="not-prose flex min-h-80 w-full items-center justify-center gap-5 rounded-lg border p-5">
       <div
         role="alertdialog"
         aria-describedby="alert-dialog-description"
@@ -23,12 +23,12 @@ export const AlertDialogExample = () => {
         <div className="flex flex-col-reverse sm:flex-row sm:justify-end sm:space-x-2">
           <button
             type="button"
-            className="inline-flex items-center justify-center gap-1 transition-colors duration-150 active:brightness-90 text-sm disabled:pointer-events-none disabled:brightness-75 disabled:opacity-80 hover:bg-accent hover:text-accent-foreground rounded-md h-10 px-3">
+            className="inline-flex h-10 items-center justify-center gap-1 rounded-md px-3 text-sm transition-colors duration-150 hover:bg-accent hover:text-accent-foreground active:brightness-90 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
             Cancel
           </button>
           <button
             type="button"
-            className="inline-flex items-center justify-center gap-1 transition-colors duration-150 active:brightness-90 text-sm disabled:pointer-events-none disabled:brightness-75 disabled:opacity-80 bg-primary text-primary-foreground hover:bg-primary/90 rounded-md h-10 px-3">
+            className="inline-flex h-10 items-center justify-center gap-1 rounded-md bg-primary px-3 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-90 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
             Continue
           </button>
         </div>
