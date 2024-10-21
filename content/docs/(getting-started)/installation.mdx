@@ -16,6 +16,7 @@ This is just a basic setup. For complete installation instructions, please refer
   npm install -D tailwindcss
   npx tailwindcss init
 ```
+
 </Step>
 
 <Step>
@@ -112,7 +113,7 @@ These are the default themes provided by mijn-ui. If you would like to create yo
   }
 
   body {
-    @apply bg-background text-foreground border-border;
+    @apply border-border bg-background text-foreground;
   }
 }
 ```
@@ -124,15 +125,15 @@ These are the default themes provided by mijn-ui. If you would like to create yo
   
   ```js title="tailwind.config.js"
 
-/** @type {import('tailwindcss').Config} */
+/** @type {import('tailwindcss').Config} \*/
 export default {
-    content: ["./src/**/*.{html,js}"],
-    presets: [createPreset()],
-    theme: {
-      extend: {
-        colors: {
-          background: "hsl(var(--background) / <alpha-value>)",
-          foreground: "hsl(var(--foreground) / <alpha-value>)",
+content: ["./src/**/\*.{html,js}"],
+presets: [createPreset()],
+theme: {
+extend: {
+colors: {
+background: "hsl(var(--background) / <alpha-value>)",
+foreground: "hsl(var(--foreground) / <alpha-value>)",
 
           muted: {
             DEFAULT: "hsl(var(--muted) / <alpha-value>)",
@@ -194,16 +195,18 @@ export default {
       },
     },
     plugins: [],
+
 }
 
-  ```
+```
 </Step>
 
 
-  <Step>
-    ### That's it
+<Step>
+  ### That's it
 
-    You can now start adding components to your project. Check out the [components](/docs/accordion) section to learn more about the available components.
+  You can now start adding components to your project. Check out the [components](/docs/accordion) section to learn more about the available components.
 
-  </Step>
+</Step>
 </Steps>
+```
