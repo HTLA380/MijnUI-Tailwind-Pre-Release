@@ -11,9 +11,9 @@ export const CheckboxDefault = () => {
                 type="checkbox"
                 id="checkbox"
                 defaultChecked
-                className="before:content[''] disabled:checked:bg-disabled disabled:border-disabled border-main-foreground peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default [&+span>svg]:text-primary-foreground"
+                className="before:content[''] disabled:border-disabled peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
               />
-              <span className="peer-disabled:[&>svg]:text-disabled-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-indeterminate:opacity-100">
+              <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-indeterminate:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                 <svg
                   stroke="currentColor"
                   fill="none"
@@ -57,9 +57,9 @@ export const CheckboxIndeterminate = () => {
                 type="checkbox"
                 defaultChecked
                 id="checkbox-with-indeterminate"
-                className="before:content[''] disabled:checked:bg-disabled disabled:border-disabled border-main-text [&+span>svg]:text-primary-text peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default"
+                className="before:content[''] disabled:border-disabled peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
               />
-              <span className="peer-disabled:[&>svg]:text-disabled-text pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-indeterminate:opacity-100">
+              <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-indeterminate:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                 <svg
                   stroke="currentColor"
                   fill="none"
@@ -82,7 +82,7 @@ export const CheckboxIndeterminate = () => {
             Candidates
           </label>
         </div>
-        <p className="text-muted-text pl-7 text-xs sm:text-sm">
+        <p className="pl-7 text-xs text-muted-foreground sm:text-sm">
           This checkbox can have an indeterminate state.
         </p>
       </div>
