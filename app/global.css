@@ -9,7 +9,7 @@
 
   --border: 0 0% 83%; /* neutral-300 */
 
-  --muted: 0 0% 90%; /* neutral-200 */
+  --muted: 0 0% 83%; /* neutral-300 */
   --muted-foreground: 0 0% 25%; /* neutral-700 */
 
   --primary: 29 100% 52%; /* orange-500 */
@@ -18,7 +18,7 @@
   --secondary: 34 100% 82%; /* #FED7AA */
   --secondary-foreground: 29 93% 39%; /* orange-700 */
 
-  --accent: 0 0% 93%; /* neutral-150 */
+  --accent: 0 0% 90%; /* neutral-200 */
   --accent-foreground: 0 0% 0%; /* black */
 
   --surface: 0 0% 98%; /* neutral-50 */

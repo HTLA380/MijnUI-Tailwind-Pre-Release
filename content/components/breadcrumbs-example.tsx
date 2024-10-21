@@ -6,7 +6,7 @@ export const BreadCrumbsDefault = () => {
       <nav
         className="flex flex-col flex-wrap items-center justify-start gap-1 text-muted-foreground sm:flex-row"
         aria-label="breadcrumb">
-        <span className="flex items-center text-xs">
+        <span className="flex items-center text-xs sm:text-[0.8125rem]">
           <a
             className="flex items-center text-muted-foreground hover:text-foreground hover:underline"
             href="/">
@@ -28,7 +28,7 @@ export const BreadCrumbsDefault = () => {
             <path d="m9 18 6-6-6-6"></path>
           </svg>
         </span>
-        <span className="flex items-center text-xs">
+        <span className="flex items-center text-xs sm:text-[0.8125rem]">
           <a
             className="flex items-center text-muted-foreground hover:text-foreground hover:underline"
             href="/">
@@ -50,7 +50,7 @@ export const BreadCrumbsDefault = () => {
             <path d="m9 18 6-6-6-6"></path>
           </svg>
         </span>
-        <span className="flex items-center text-xs">
+        <span className="flex items-center text-xs sm:text-[0.8125rem]">
           <a
             className="flex items-center text-muted-foreground hover:text-foreground hover:underline"
             href="/">
@@ -72,7 +72,7 @@ export const BreadCrumbsDefault = () => {
             <path d="m9 18 6-6-6-6"></path>
           </svg>
         </span>
-        <span className="flex items-center text-xs">
+        <span className="flex items-center text-xs sm:text-[0.8125rem]">
           <a
             className="flex items-center text-muted-foreground hover:text-foreground hover:underline"
             href="/">
@@ -94,7 +94,7 @@ export const BreadCrumbsDefault = () => {
             <path d="m9 18 6-6-6-6"></path>
           </svg>
         </span>
-        <span className="flex items-center text-xs">
+        <span className="flex items-center text-xs sm:text-[0.8125rem]">
           <a
             className="flex items-center text-muted-foreground hover:text-foreground hover:underline"
             href="/">
@@ -116,7 +116,7 @@ export const BreadCrumbsDefault = () => {
             <path d="m9 18 6-6-6-6"></path>
           </svg>
         </span>
-        <span className="flex items-center text-xs">
+        <span className="flex items-center text-xs sm:text-[0.8125rem]">
           <a
             className="flex items-center text-muted-foreground hover:text-foreground hover:underline"
             href="/">
