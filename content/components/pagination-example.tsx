@@ -48,7 +48,7 @@ export const PaginationDefault = () => {
             </button>
           </li>
           <li>
-            <button className="border-main-border inline-flex h-9 w-9 items-center justify-center gap-1 rounded-md border bg-surface text-sm hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:opacity-50 sm:h-10 sm:w-10">
+            <button className="inline-flex h-9 w-9 items-center justify-center gap-1 rounded-md border bg-surface text-sm hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:opacity-50 sm:h-10 sm:w-10">
               7
             </button>
           </li>

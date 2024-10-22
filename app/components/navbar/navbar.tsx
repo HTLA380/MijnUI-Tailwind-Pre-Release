@@ -16,18 +16,18 @@ const Navbar = () => {
   const { setOpenSearch } = useSearchContext()
 
   return (
-    <header className="fixed inset-x-0 top-0 bg-transparent z-30 flex justify-between items-center h-16 w-full backdrop-blur-sm">
+    <header className="fixed inset-x-0 top-0 z-30 flex h-16 w-full items-center justify-between bg-transparent backdrop-blur-sm">
       <nav className="flex w-full items-center justify-between px-5 py-2">
         <div className="flex items-center gap-3">
-          <Link href={"/"} className="font-bold  flex items-center gap-2">
-            <Logo className="fill-fd-foreground size-5 items-center" />
+          <Link href={"/"} className="flex items-center gap-2 font-bold">
+            <Logo className="size-5 items-center fill-fd-foreground" />
             MijnUI
           </Link>
           <Select>
             <SelectTrigger className="h-auto w-24 py-1.5 shadow-none">
               v0.0.1
             </SelectTrigger>
-            <SelectContent className="p-1.5 w-28 bg-fd-popover border-fd-border">
+            <SelectContent className="w-28 border-fd-border bg-fd-popover p-1.5">
               <SelectItem value="v0.0.1">
                 <Link href={"/docs"}>v0.0.1</Link>
               </SelectItem>
@@ -40,10 +40,10 @@ const Navbar = () => {
             onClick={() => setOpenSearch(true)}
             variant={"surface"}
             size={"sm"}
-            className="text-muted-foreground gap-2">
+            className="gap-2 text-muted-foreground">
             <LuSearch />
             <span>Search...</span>
-            <div className="inline-flex border rounded-full ml-4 gap-1 h-5 px-2 py-px">
+            <div className="ml-4 inline-flex h-5 gap-1 rounded-full border px-2 py-px">
               <kbd className="text-[0.625rem]">Ctrl+</kbd>
               <kbd className="text-[0.625rem]">K</kbd>
             </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
   )
 }
 
-const Logo = ({ ...props }: React.ComponentProps<"svg">) => {
+export const Logo = ({ ...props }: React.ComponentProps<"svg">) => {
   return (
     <svg
       width="40"

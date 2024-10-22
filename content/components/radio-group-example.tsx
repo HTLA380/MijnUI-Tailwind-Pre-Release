@@ -11,7 +11,7 @@ export const DefaultRadioGroup = () => {
               htmlFor="radio-button-example">
               <input
                 type="radio"
-                className="before:content[''] before:bg-blue-gray-500 border-main-text peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border text-primary transition-all before:absolute before:left-2/4 before:top-2/4 before:block before:h-12 before:w-12 before:-translate-x-2/4 before:-translate-y-2/4 before:rounded-full before:opacity-0 before:transition-opacity checked:border-primary checked:before:bg-primary hover:before:opacity-0"
+                className="before:content[''] before:bg-blue-gray-500 peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-foreground text-primary transition-all before:absolute before:left-2/4 before:top-2/4 before:block before:h-12 before:w-12 before:-translate-x-2/4 before:-translate-y-2/4 before:rounded-full before:opacity-0 before:transition-opacity checked:border-primary checked:before:bg-primary hover:before:opacity-0"
                 id="radio-button-example"
                 name="example"
               />
@@ -38,7 +38,7 @@ export const DefaultRadioGroup = () => {
               htmlFor="vertical-list-react">
               <input
                 type="radio"
-                className="before:content[''] before:bg-blue-gray-500 border-main-text peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border text-primary transition-all before:absolute before:left-2/4 before:top-2/4 before:block before:h-12 before:w-12 before:-translate-x-2/4 before:-translate-y-2/4 before:rounded-full before:opacity-0 before:transition-opacity checked:border-primary checked:before:bg-primary hover:before:opacity-0"
+                className="before:content[''] before:bg-blue-gray-500 peer relative h-5 w-5 cursor-pointer appearance-none rounded-full border border-foreground text-primary transition-all before:absolute before:left-2/4 before:top-2/4 before:block before:h-12 before:w-12 before:-translate-x-2/4 before:-translate-y-2/4 before:rounded-full before:opacity-0 before:transition-opacity checked:border-primary checked:before:bg-primary hover:before:opacity-0"
                 id="radio-button-example-2"
                 name="example"
               />

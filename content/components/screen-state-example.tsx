@@ -27,7 +27,7 @@ export const DefaultScreenState = () => {
           </svg>
         </span>
         <div className="space-y-1">
-          <h3 className="text-main-text text-lg font-medium sm:text-xl">
+          <h3 className="text-lg font-medium text-foreground sm:text-xl">
             No files found
           </h3>
           <p className="text-muted-text text-sm">
