@@ -67,7 +67,7 @@ These are the default themes provided by mijn-ui. If you would like to create yo
     --ring: 0 0% 15%; /* neutral-800 */
 
     --border: 0 0% 83%; /* neutral-300 */
-    
+
     --input: 0 0% 83%; /* neutral-500 */
   }
 
@@ -128,76 +128,72 @@ These are the default themes provided by mijn-ui. If you would like to create yo
   ```js title="tailwind.config.js"
 
 /** @type {import('tailwindcss').Config} \*/
+
 export default {
-content: ["./src/**/\*.{html,js}"],
-presets: [createPreset()],
-theme: {
-extend: {
-colors: {
-background: "hsl(var(--background) / <alpha-value>)",
-foreground: "hsl(var(--foreground) / <alpha-value>)",
+  content: ["./src/**/*{html,js}"],
+  presets: [createPreset()],
+  theme: {
+    extend: {
+      colors: {
+        background: "hsl(var(--background) / <alpha-value>)",
+        foreground: "hsl(var(--foreground) / <alpha-value>)",
 
-          muted: {
-            DEFAULT: "hsl(var(--muted) / <alpha-value>)",
-            foreground: "hsl(var(--muted-foreground) / <alpha-value>)",
-          },
-
-          surface: {
-            DEFAULT: "hsl(var(--surface) / <alpha-value>)",
-            foreground: "hsl(var(--surface-foreground) / <alpha-value>)",
-          },
-
-          primary: {
-            DEFAULT: "hsl(var(--primary) / <alpha-value>)",
-            foreground: "hsl(var(--primary-foreground) / <alpha-value>)",
-          },
-
-          secondary: {
-            DEFAULT: "hsl(var(--secondary) / <alpha-value>)",
-            foreground: "hsl(var(--secondary-foreground) / <alpha-value>)",
-          },
-
-          accent: {
-            DEFAULT: "hsl(var(--accent) / <alpha-value>)",
-            foreground: "hsl(var(--accent-foreground) / <alpha-value>)",
-          },
-
-          success: {
-            DEFAULT: "hsl(var(--success) / <alpha-value>)",
-            foreground: "hsl(var(--success-foreground) / <alpha-value>)",
-            "filled-foreground":
-              "hsl(var(--success-filled-foreground) / <alpha-value>)",
-          },
-
-          info: {
-            DEFAULT: "hsl(var(--info) / <alpha-value>)",
-            foreground: "hsl(var(--info-foreground) / <alpha-value>)",
-            "filled-foreground":
-              "hsl(var(--info-filled-foreground) / <alpha-value>)",
-          },
-
-          warning: {
-            DEFAULT: "hsl(var(--warning) / <alpha-value>)",
-            foreground: "hsl(var(--warning-foreground) / <alpha-value>)",
-            "filled-foreground":
-              "hsl(var(--warning-filled-foreground) / <alpha-value>)",
-          },
-
-          danger: {
-            DEFAULT: "hsl(var(--danger) / <alpha-value>)",
-            foreground: "hsl(var(--danger-foreground) / <alpha-value>)",
-            "filled-foreground":
-              "hsl(var(--danger-filled-foreground) / <alpha-value>)",
-          },
-
-          border: "hsl(var(--border) / <alpha-value>)",
-          input: "hsl(var(--input-border) / <alpha-value>)",
-          ring: "hsl(var(--ring) / <alpha-value>)",
+        muted: {
+          DEFAULT: "hsl(var(--muted) / <alpha-value>)",
+          foreground: "hsl(var(--muted-foreground) / <alpha-value>)",
         },
+
+        surface: {
+          DEFAULT: "hsl(var(--surface) / <alpha-value>)",
+          foreground: "hsl(var(--surface-foreground) / <alpha-value>)",
+        },
+
+        primary: {
+          DEFAULT: "hsl(var(--primary) / <alpha-value>)",
+          foreground: "hsl(var(--primary-foreground) / <alpha-value>)",
+        },
+
+        secondary: {
+          DEFAULT: "hsl(var(--secondary) / <alpha-value>)",
+          foreground: "hsl(var(--secondary-foreground) / <alpha-value>)",
+        },
+
+        accent: {
+          DEFAULT: "hsl(var(--accent) / <alpha-value>)",
+          foreground: "hsl(var(--accent-foreground) / <alpha-value>)",
+        },
+
+        success: {
+          DEFAULT: "hsl(var(--success) / <alpha-value>)",
+          foreground: "hsl(var(--success-foreground) / <alpha-value>)",
+          "filled-foreground": "hsl(var(--success-filled-foreground) / <alpha-value>)",
+        },
+
+        info: {
+          DEFAULT: "hsl(var(--info) / <alpha-value>)",
+          foreground: "hsl(var(--info-foreground) / <alpha-value>)",
+          "filled-foreground": "hsl(var(--info-filled-foreground) / <alpha-value>)",
+        },
+
+        warning: {
+          DEFAULT: "hsl(var(--warning) / <alpha-value>)",
+          foreground: "hsl(var(--warning-foreground) / <alpha-value>)",
+          "filled-foreground": "hsl(var(--warning-filled-foreground) / <alpha-value>)",
+        },
+
+        danger: {
+          DEFAULT: "hsl(var(--danger) / <alpha-value>)",
+          foreground: "hsl(var(--danger-foreground) / <alpha-value>)",
+          "filled-foreground": "hsl(var(--danger-filled-foreground) / <alpha-value>)",
+        },
+
+        border: "hsl(var(--border) / <alpha-value>)",
+        input: "hsl(var(--input-border) / <alpha-value>)",
+        ring: "hsl(var(--ring) / <alpha-value>)",
       },
     },
-    plugins: [],
-
+  },
+  plugins: [],
 }
 
 ```
@@ -211,4 +207,4 @@ foreground: "hsl(var(--foreground) / <alpha-value>)",
 
 </Step>
 </Steps>
-```
+
