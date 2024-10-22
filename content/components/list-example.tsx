@@ -27,18 +27,18 @@ export const ButtonList = () => {
         </button>
         <button
           type="button"
-          className="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default">
+          className="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default disabled:opacity-50">
           Settings
         </button>
         <button
           type="button"
-          className="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default">
+          className="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default disabled:opacity-50">
           Messages
         </button>
         <button
           type="button"
           disabled
-          className="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default disabled:bg-surface disabled:text-muted-foreground/75">
+          className="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default disabled:bg-surface disabled:opacity-50">
           Download
         </button>
       </div>
@@ -59,20 +59,20 @@ export const ButtonListWithIcon = () => {
         </button>
         <button
           type="button"
-          className="inline-flex w-full cursor-pointer items-center gap-2 rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default">
+          className="inline-flex w-full cursor-pointer items-center gap-2 rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default disabled:opacity-50">
           <LuSettings />
           Settings
         </button>
         <button
           type="button"
-          className="inline-flex w-full cursor-pointer items-center gap-2 rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default">
+          className="inline-flex w-full cursor-pointer items-center gap-2 rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default disabled:opacity-50">
           <LuMessageCircle />
           Messages
         </button>
         <button
           type="button"
           disabled
-          className="inline-flex w-full cursor-pointer items-center gap-2 rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default disabled:bg-surface disabled:text-muted-foreground/75">
+          className="inline-flex w-full cursor-pointer items-center gap-2 rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-foreground disabled:pointer-events-none disabled:cursor-default disabled:bg-surface disabled:opacity-50">
           <LuDownload />
           Download
         </button>

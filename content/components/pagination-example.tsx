@@ -4,7 +4,7 @@ export const PaginationDefault = () => {
   return (
     <div className="not-prose flex min-h-80 w-full items-center justify-center gap-5 rounded-lg border p-5">
       <nav className="flex items-center gap-2">
-        <button className="inline-flex h-9 items-center justify-center gap-1 rounded-md px-3 py-2 pl-2.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:text-muted-foreground/75 sm:h-10">
+        <button className="inline-flex h-9 items-center justify-center gap-1 rounded-md px-3 py-2 pl-2.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:opacity-50 sm:h-10">
           <svg
             stroke="currentColor"
             fill="none"
@@ -43,17 +43,17 @@ export const PaginationDefault = () => {
 
         <ul className="flex flex-row items-center gap-1">
           <li>
-            <button className="inline-flex h-9 w-9 items-center justify-center gap-1 rounded-md text-sm hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:text-muted-foreground/75 sm:h-10 sm:w-10">
+            <button className="inline-flex h-9 w-9 items-center justify-center gap-1 rounded-md text-sm hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:opacity-50 sm:h-10 sm:w-10">
               6
             </button>
           </li>
           <li>
-            <button className="border-main-border inline-flex h-9 w-9 items-center justify-center gap-1 rounded-md border bg-surface text-sm hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:text-muted-foreground/75 sm:h-10 sm:w-10">
+            <button className="border-main-border inline-flex h-9 w-9 items-center justify-center gap-1 rounded-md border bg-surface text-sm hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:opacity-50 sm:h-10 sm:w-10">
               7
             </button>
           </li>
           <li>
-            <button className="inline-flex h-9 w-9 items-center justify-center gap-1 rounded-md text-sm hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:text-muted-foreground/75 sm:h-10 sm:w-10">
+            <button className="inline-flex h-9 w-9 items-center justify-center gap-1 rounded-md text-sm hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:opacity-50 sm:h-10 sm:w-10">
               8
             </button>
           </li>
@@ -79,7 +79,7 @@ export const PaginationDefault = () => {
           </svg>
         </span>
 
-        <button className="inline-flex h-9 items-center justify-center gap-1 rounded-md px-3 py-2 pl-2.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:text-muted-foreground/75 sm:h-10">
+        <button className="inline-flex h-9 items-center justify-center gap-1 rounded-md px-3 py-2 pl-2.5 text-sm font-medium hover:bg-accent hover:text-accent-foreground/80 disabled:pointer-events-none disabled:opacity-50 sm:h-10">
           <span className="hidden sm:inline">Next</span>
           <svg
             stroke="currentColor"
