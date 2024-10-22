@@ -155,7 +155,7 @@ This input component contains icons on both sides, providing both left and right
 
 The floating label provides a minimalist design, where the label floats above the input field when it is in focus or has content.
 
-**Note:** The floating label relies on the input’s `placeholder` state. For it to work correctly, the `placeholder` must contain at least one character. If you prefer not to display a visible placeholder, use `placeholder=" "` (a space character) as shown in the example. Without this, the floating label may not function as expected.
+**Note:** The floating label relies on the input’s `placeholder` state. For it to work correctly, the `placeholder` must be defined. If you don't want to display any placeholder value, you can set it to an empty string (`placeholder=""`). Alternatively, if you want to include a placeholder, you can specify a value (`placeholder="user"`). Without this, the floating label may not function as expected.
 
 <InputWithFloatingLabel />
 
