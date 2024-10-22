@@ -1,0 +1,106 @@
+---
+title: Stepper
+---
+
+---
+
+import { ActiveStepper, DefaultStepper } from "../../components/stepper-example"
+
+### Default Stepper
+
+<DefaultStepper />
+
+```html title="stepper.html"
+<div class="flex items-center gap-2">
+  <!-- /* ------------------------------ Current Step ------------------------------ */ -->
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border border-foreground bg-surface text-sm">
+      1
+    </button>
+    <div class="h-px w-20 bg-border"></div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border text-sm text-muted-foreground">
+      2
+    </button>
+    <div class="h-px w-20 bg-border"></div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border text-sm text-muted-foreground">
+      3
+    </button>
+    <div class="h-px w-20 bg-border"></div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border text-sm text-muted-foreground">
+      4
+    </button>
+    <div class="h-px w-20 bg-border"></div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border text-sm text-muted-foreground">
+      5
+    </button>
+  </div>
+</div>
+```
+
+---
+
+### Active Stepper
+
+<ActiveStepper />
+
+```html title="stepper.html"
+<div class="flex items-center gap-2">
+  <!-- /* ------------------------------- Active Step ------------------------------ */ -->
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border border-foreground bg-foreground text-sm text-background">
+      1
+    </button>
+    <div class="h-px w-20 bg-foreground"></div>
+  </div>
+
+  <!-- /* ------------------------------ Current Step ------------------------------ */ -->
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border border-foreground bg-surface text-sm">
+      2
+    </button>
+    <div class="h-px w-20 bg-border"></div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border text-sm text-muted-foreground">
+      3
+    </button>
+    <div class="h-px w-20 bg-border"></div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border text-sm text-muted-foreground">
+      4
+    </button>
+    <div class="h-px w-20 bg-border"></div>
+  </div>
+
+  <div class="flex items-center gap-2">
+    <button
+      class="flex h-8 w-8 items-center justify-center rounded-full border text-sm text-muted-foreground">
+      5
+    </button>
+  </div>
+</div>
+```
