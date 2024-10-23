@@ -4,7 +4,7 @@ export const CardDefault = () => {
   return (
     <div className="not-prose flex min-h-80 w-full flex-col items-center justify-center gap-5 rounded-lg border p-5 sm:flex-row">
       <div className="relative w-full max-w-60 space-y-2 rounded-lg bg-surface p-4 shadow-sm">
-        <span className="inline-flex h-10 w-10 items-center justify-center gap-1 rounded-lg bg-accent p-0 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground sm:h-12 sm:w-12">
+        <span className="disabled:text-muted/75-foreground inline-flex h-10 w-10 items-center justify-center gap-1 rounded-lg bg-accent p-0 text-sm text-muted-foreground hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75 sm:h-12 sm:w-12">
           <svg
             stroke="currentColor"
             fill="none"
@@ -51,7 +51,7 @@ export const CardStats = () => {
   return (
     <div className="not-prose flex min-h-80 w-full flex-col items-center justify-center gap-5 rounded-lg border p-5 sm:flex-row">
       <div className="w-full max-w-44 space-y-3 rounded-xl bg-surface p-5 shadow-sm sm:space-y-4 sm:p-6">
-        <span className="inline-flex h-10 w-10 items-center justify-center gap-1 rounded-full bg-muted p-0 text-sm hover:bg-muted hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground sm:h-12 sm:w-12">
+        <span className="disabled:text-muted/75-foreground inline-flex h-10 w-10 items-center justify-center gap-1 rounded-full bg-muted p-0 text-sm hover:bg-muted hover:text-accent-foreground disabled:bg-muted/75 sm:h-12 sm:w-12">
           <svg
             stroke="currentColor"
             fill="currentColor"

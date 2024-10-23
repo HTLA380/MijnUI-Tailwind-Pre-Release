@@ -15,9 +15,9 @@ export const CustomerTable = () => {
                     <input
                       id="check-all"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -71,9 +71,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-1"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -151,9 +151,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-2"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -233,9 +233,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-3"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -315,9 +315,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-4"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -397,9 +397,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-5"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -479,9 +479,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-6"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -561,9 +561,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-7"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -643,9 +643,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-8"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"
@@ -725,9 +725,9 @@ export const CustomerTable = () => {
                     <input
                       id="checkbox-9"
                       type="checkbox"
-                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                      className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
                     />
-                    <span className="peer-muted:[&>svg]:text-muted-foreground pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100">
+                    <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                       <svg
                         stroke="currentColor"
                         fill="none"

@@ -11,7 +11,7 @@ export const CheckboxDefault = () => {
                 type="checkbox"
                 id="checkbox"
                 defaultChecked
-                className="before:content[''] disabled:border-disabled peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
               />
               <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-indeterminate:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                 <svg
@@ -57,7 +57,7 @@ export const CheckboxIndeterminate = () => {
                 type="checkbox"
                 defaultChecked
                 id="checkbox-with-indeterminate"
-                className="before:content[''] disabled:border-disabled peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:checked:bg-muted [&+span>svg]:text-primary-foreground"
+                className="before:content[''] peer relative h-5 w-5 cursor-pointer appearance-none rounded-[4px] border border-foreground transition-all checked:border-primary checked:bg-primary indeterminate:border-primary indeterminate:bg-primary disabled:cursor-default disabled:border-muted disabled:checked:bg-muted/75 [&+span>svg]:text-primary-foreground"
               />
               <span className="pointer-events-none absolute left-2/4 top-2/4 -translate-x-2/4 -translate-y-2/4 opacity-0 transition-opacity peer-checked:opacity-100 peer-indeterminate:opacity-100 peer-disabled:[&>svg]:text-muted-foreground">
                 <svg

@@ -6,7 +6,7 @@ export const DefaultSidebar = () => {
     <div className="not-prose relative flex h-[650px] w-full items-center justify-center gap-5 overflow-hidden rounded-lg border p-5">
       <aside className="absolute inset-y-0 left-0 w-52 space-y-2 overflow-y-auto border-r border-border bg-surface px-3 pb-4 pt-2 shadow-sm">
         <div className="flex items-center gap-2">
-          <button className="inline-flex h-10 w-10 items-center justify-center gap-1 rounded-md border text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <button className="disabled:text-muted/75-foreground inline-flex h-10 w-10 items-center justify-center gap-1 rounded-md border text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <svg
               stroke="currentColor"
               fill="none"
@@ -29,7 +29,7 @@ export const DefaultSidebar = () => {
         <ul className="w-full list-none space-y-1 p-1">
           <a
             href="#"
-            className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:bg-primary hover:text-primary-foreground disabled:bg-muted disabled:text-muted-foreground">
+            className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:bg-primary hover:text-primary-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -51,7 +51,7 @@ export const DefaultSidebar = () => {
           </a>
           <a
             href="#"
-            className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+            className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -73,7 +73,7 @@ export const DefaultSidebar = () => {
           </a>
           <a
             href="#"
-            className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+            className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -96,7 +96,7 @@ export const DefaultSidebar = () => {
           </a>
           <a
             href="#"
-            className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+            className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -122,7 +122,7 @@ export const DefaultSidebar = () => {
           </a>
           <a
             href="#"
-            className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+            className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -144,7 +144,7 @@ export const DefaultSidebar = () => {
           </a>
           <a
             href="#"
-            className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+            className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -201,7 +201,7 @@ export const DefaultSidebar = () => {
           </div>
           <a
             href="#"
-            className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+            className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <MdOutlineLocationOn />
             </span>
@@ -220,7 +220,7 @@ export const SidebarCollapsibleActive = () => {
     <div className="not-prose relative flex h-[650px] w-full items-center justify-center gap-5 overflow-hidden rounded-lg border p-5">
       <aside className="absolute inset-y-0 left-0 w-52 space-y-2 overflow-y-auto border-r bg-surface px-3 pb-4 pt-2 shadow-sm">
         <div className="flex items-center gap-2">
-          <button className="inline-flex h-10 w-10 items-center justify-center gap-1 rounded-md border text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <button className="disabled:text-muted/75-foreground inline-flex h-10 w-10 items-center justify-center gap-1 rounded-md border text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <svg
               stroke="currentColor"
               fill="none"
@@ -239,7 +239,7 @@ export const SidebarCollapsibleActive = () => {
           <h5 className="font-extrabold">MijnUI</h5>
         </div>
         <ul className="w-full list-none space-y-1 p-1">
-          <a className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:bg-primary hover:text-primary-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <a className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:bg-primary hover:text-primary-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -259,7 +259,7 @@ export const SidebarCollapsibleActive = () => {
               <p className="flex-1 text-sm font-medium">Dashboard</p>
             </div>
           </a>
-          <a className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <a className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -279,7 +279,7 @@ export const SidebarCollapsibleActive = () => {
               <p className="flex-1 text-sm font-medium">Search</p>
             </div>
           </a>
-          <a className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <a className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -300,7 +300,7 @@ export const SidebarCollapsibleActive = () => {
               <p className="flex-1 text-sm font-medium">Insights</p>
             </div>
           </a>
-          <a className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <a className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -324,7 +324,7 @@ export const SidebarCollapsibleActive = () => {
               <p className="flex-1 text-sm font-medium">Documents</p>
             </div>
           </a>
-          <a className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <a className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -344,7 +344,7 @@ export const SidebarCollapsibleActive = () => {
               <p className="flex-1 text-sm font-medium">Settings</p>
             </div>
           </a>
-          <a className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <a className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <svg
                 stroke="currentColor"
@@ -438,7 +438,7 @@ export const SidebarCollapsibleActive = () => {
             </div>
           </div>
 
-          <a className="inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted disabled:text-muted-foreground">
+          <a className="disabled:text-muted/75-foreground inline-flex h-10 w-full cursor-pointer items-center justify-center gap-2 rounded-md px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground disabled:bg-muted/75">
             <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
               <MdOutlineLocationOn />
             </span>

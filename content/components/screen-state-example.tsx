@@ -30,7 +30,7 @@ export const DefaultScreenState = () => {
           <h3 className="text-lg font-medium text-foreground sm:text-xl">
             No files found
           </h3>
-          <p className="text-muted-text text-sm">
+          <p className="text-sm text-muted-foreground">
             Your search “design system” did not match any projects. Please try
             again.
           </p>
