@@ -80,3 +80,59 @@ export const ButtonListWithIcon = () => {
     </div>
   )
 }
+
+export const ListItem = () => {
+  return (
+    <div className="not-prose flex min-h-80 w-full items-center justify-center gap-5 rounded-lg border p-5">
+      <li className="flex w-full max-w-lg flex-wrap items-center gap-2 bg-surface px-4 py-2 text-sm">
+        <div className="inline-flex h-8 w-8 items-center justify-center rounded-md bg-muted text-sm text-foreground sm:h-10 sm:w-10 [&>svg]:h-5 [&>svg]:w-5">
+          <svg
+            stroke="currentColor"
+            fill="none"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12h14"></path>
+            <path d="M12 5v14"></path>
+          </svg>
+        </div>
+        <div className="relative flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded-full bg-muted text-sm sm:h-10 sm:w-10">
+          <img
+            alt="avatar"
+            src="/avatar/avatar-3.png"
+            className="h-full w-full object-cover"
+          />
+        </div>
+        <div className="flex-1 text-left">
+          <h5 className="flex-1 text-sm font-medium sm:text-base">
+            {" "}
+            List Item
+          </h5>
+          <p className="flex-1 text-xs text-muted-foreground">
+            Supporting Text
+          </p>
+        </div>
+        <span className="text-xs text-muted-foreground">Label</span>
+        <span className="flex size-5 flex-shrink-0 items-center justify-center [&>svg]:h-4 [&>svg]:w-4">
+          <svg
+            stroke="currentColor"
+            fill="none"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            height="1em"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 12h14"></path>
+            <path d="M12 5v14"></path>
+          </svg>
+        </span>
+      </li>
+    </div>
+  )
+}
