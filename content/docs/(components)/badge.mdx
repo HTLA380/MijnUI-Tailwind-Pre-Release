@@ -4,46 +4,18 @@ title: Badge
 
 ---
 
-import { BadgeVariants } from "../../components/badge-example.tsx"
+import CodePreviewer from "../../components/preview"
 
 ### Badge Variants
 
-<BadgeVariants />
+<CodePreviewer src="/html/badge/badge.html" />
 
-```html title="badges.html"
-<!-- primary  -->
-<span
-  className="inline-flex justify-center items-center rounded-full text-xs bg-primary text-primary-foreground hover:bg-primary/90 py-0.5 px-2.5">
-  Badge
-</span>
-
-<!-- secondary  -->
-<span
-  className="inline-flex justify-center items-center rounded-full text-xs bg-secondary text-secondary-foreground hover:bg-secondary/90 py-0.5 px-2.5">
-  Badge
-</span>
-
-<!-- danger  -->
-<span
-  className="inline-flex justify-center items-center rounded-full text-xs bg-danger text-danger-filled-foreground hover:bg-danger/90 py-0.5 px-2.5">
-  Badge
-</span>
-
-<!-- surface  -->
-<span
-  className="inline-flex justify-center items-center rounded-full text-xs bg-surface text-surface-foreground hover:bg-surface/90 py-0.5 px-2.5">
-  Badge
-</span>
-
-<!-- outline  -->
-<span
-  className="inline-flex justify-center items-center rounded-full text-xs text-foreground hover:bg-accent border py-0.5 px-2.5">
-  Badge
-</span>
-
-<!-- text  -->
-<span
-  className="inline-flex justify-center items-center rounded-full text-xs text-foreground hover:bg-accent py-0.5 px-2.5">
-  Badge
-</span>
+```json doc-gen:file
+{
+  "file": "./public/html/badge/badge.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"badge.html\""
+  }
+}
 ```

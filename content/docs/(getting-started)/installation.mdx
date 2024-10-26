@@ -26,96 +26,88 @@ This is just a basic setup. For complete installation instructions, please refer
 
 These are the default themes provided by mijn-ui. If you would like to create your own theme, learn more about themes [here](/docs/theming).
 
-```css title="Css"
+```css title="theme.css"
 @root {
   :root {
-    /* general */
-    --background: 210 14% 95%; /* slate-100 */
-    --foreground: 0 0% 0%; /* black */
-
-    --muted: 0 0% 83%; /* neutral-300 */
-    --muted-foreground: 0 0% 25%; /* neutral-700 */
-
-    --primary: 29 100% 52%; /* orange-500 */
-    --primary-foreground: 0 0% 100%; /* white */
-
-    --secondary: 34 100% 82%; /* #FED7AA */
-    --secondary-foreground: 29 93% 39%; /* orange-700 */
-
-    --accent: 0 0% 90%; /* neutral-200 */
-    --accent-foreground: 0 0% 0%; /* black */
+    --main: 210 14% 95%; /* slate-100 */
+    --main-text: 0 0% 0%; /* black */
+    --main-border: 0 0% 83%; /* neutral-300 */
 
     --surface: 0 0% 98%; /* neutral-50 */
-    --surface-foreground: 0 0% 0%; /* black */
+    --surface-text: 0 0% 0%; /* black */
+
+    --neutral: 0 0% 83%; /* neutral-300 */
+    --neutral-text: 0 0% 25%; /* neutral-700 */
+
+    --accent: 0 0% 90%; /* neutral-200 */
+    --accent-text: 0 0% 0%; /* black */
+
+    --primary: 29 100% 52%; /* orange-500 */
+    --primary-text: 0 0% 100%; /* white */
+
+    --secondary: 34 100% 82%; /* #FED7AA */
+    --secondary-text: 29 93% 39%; /* orange-700 */
 
     --info: 216 76% 52%; /* blue-500 */
-    --info-foreground: 219 64% 43%; /* blue-800 */
-    --info-filled-foreground: 0 0% 100%; /* white */
-
-    --danger: 0 72% 43%; /* red-500 */
-    --danger-foreground: 0 82% 31%; /* red-800 */
-    --danger-filled-foreground: 0 0% 100%; /* white */
+    --info-text: 219 64% 43%; /* blue-800 */
 
     --warning: 45 92% 47%; /* yellow-500 */
-    --warning-foreground: 28 73% 26%; /* yellow-900 */
-    --warning-filled-foreground: 0 0% 0%; /* white */
+    --warning-text: 28 73% 26%; /* yellow-900 */
+
+    --danger: 0 72% 43%; /* red-500 */
+    --danger-text: 0 0% 100%; /* white */
 
     --success: 140 76% 38%; /* green-500 */
-    --success-foreground: 140 49% 20%; /* green-800 */
-    --success-filled-foreground: 0 0% 100%; /* white */
+    --success-text: 140 49% 20%; /* green-800 */
+
+    --radius: 0.375rem;
 
     --ring: 0 0% 15%; /* neutral-800 */
 
-    --border: 0 0% 83%; /* neutral-300 */
-
-    --input: 0 0% 83%; /* neutral-500 */
+    --input-border: 0 0% 0%; /* black */
   }
 
   .dark {
-    /* general */
-    --background: 0 0% 4%; /* neutral-900 */
-    --foreground: 0 0% 96%; /* neutral-100 */
+    --main: 0 0% 4%; /* neutral-950 */
+    --main-text: 0 0% 96%; /* neutral-100 */
+    --main-border: 0 0% 15%; /* neutral-800 */
 
-    --surface: 0 0% 7%; /* #131313 */
-    --surface-foreground: 0 0% 96%; /* neutral-100 */
+    --surface: 0 0% 7%; /* neutral-925 */
+    --surface-text: 0 0% 96%; /* neutral-100 */
 
-    --muted: 0 0% 15%; /* neutral-800 */
-    --muted-foreground: 0 0% 64%; /* neutral-400 */
-
-    --primary: 29 100% 52%; /* orange-500 */
-    --primary-foreground: 0 0% 100%; /* white */
-
-    --secondary: 34 100% 82%; /* #FED7AA */
-    --secondary-foreground: 29 93% 39%; /* orange-700 */
+    --neutral: 0 0% 15%; /* neutral-800 */
+    --neutral-text: 0 0% 64%; /* neutral-400 */
 
     --accent: 0 0% 12%; /* neutral-850 */
-    --accent-foreground: 0 0% 96%; /* neutral-100 */
+    --accent-text: 0 0% 96%; /* neutral-100 */
+
+    --primary: 29 100% 52%; /* orange-500 */
+    --primary-text: 0 0% 100%; /* white */
+
+    --secondary: 34 100% 82%; /* #FED7AA */
+    --secondary-text: 29 93% 39%; /* orange-700 */
 
     --info: 216 76% 52%; /* blue-500 */
-    --info-foreground: 207 70% 80%; /* blue-200 */
-    --info-filled-foreground: 0 0% 100%; /* white */
-
-    --danger: 0 72% 43%; /* red-500 */
-    --danger-foreground: 0 79% 79%; /* red-200 */
-    --danger-filled-foreground: 0 0% 100%; /* white */
+    --info-text: 207 70% 80%; /* blue-200 */
 
     --warning: 45 92% 47%; /* yellow-500 */
-    --warning-foreground: 45 94% 70%; /* yellow-200 */
-    --warning-filled-foreground: 0 0% 0%; /* white */
+    --warning-text: 45 94% 70%; /* yellow-200 */
+
+    --danger: 0 72% 43%; /* red-500 */
+    --danger-text: 0 79% 79%; /* red-200 */
 
     --success: 140 76% 38%; /* green-500 */
-    --success-foreground: 140 71% 82%; /* green-200 */
-    --success-filled-foreground: 0 0% 100%; /* white */
+    --success-text: 140 71% 82%; /* green-200 */
+
+    --radius: 0.375rem;
 
     --ring: 0 0% 96%; /* neutral-100 */
 
-    --border: 0 0% 15%; /* neutral-800 */
-
-    --input: 0 0% 25%; /* neutral-600 */
+    --input-border: 0 0% 96%; /* neutral-100 */
   }
 
   body {
-    @apply border-border bg-background text-foreground;
+    @apply bg-main border-main-border text-main-text;
   }
 }
 ```
@@ -130,70 +122,66 @@ These are the default themes provided by mijn-ui. If you would like to create yo
 /** @type {import('tailwindcss').Config} \*/
 
 export default {
-  content: ["./src/**/*{html,js}"],
-  presets: [createPreset()],
+  ...
   theme: {
     extend: {
       colors: {
-        background: "hsl(var(--background) / <alpha-value>)",
-        foreground: "hsl(var(--foreground) / <alpha-value>)",
-
-        muted: {
-          DEFAULT: "hsl(var(--muted) / <alpha-value>)",
-          foreground: "hsl(var(--muted-foreground) / <alpha-value>)",
+        main: {
+          DEFAULT: "hsl(var(--main) / <alpha-value>)",
+          text: "hsl(var(--main-text) / <alpha-value>)",
+          border: "hsl(var(--main-border) / <alpha-value>)",
         },
 
         surface: {
           DEFAULT: "hsl(var(--surface) / <alpha-value>)",
-          foreground: "hsl(var(--surface-foreground) / <alpha-value>)",
+          text: "hsl(var(--surface-text) / <alpha-value>)",
         },
 
-        primary: {
-          DEFAULT: "hsl(var(--primary) / <alpha-value>)",
-          foreground: "hsl(var(--primary-foreground) / <alpha-value>)",
-        },
-
-        secondary: {
-          DEFAULT: "hsl(var(--secondary) / <alpha-value>)",
-          foreground: "hsl(var(--secondary-foreground) / <alpha-value>)",
+        neutral: {
+          DEFAULT: "hsl(var(--neutral) / <alpha-value>)",
+          text: "hsl(var(--neutral-text) / <alpha-value>)",
         },
 
         accent: {
           DEFAULT: "hsl(var(--accent) / <alpha-value>)",
-          foreground: "hsl(var(--accent-foreground) / <alpha-value>)",
+          text: "hsl(var(--accent-text) / <alpha-value>)",
         },
 
-        success: {
-          DEFAULT: "hsl(var(--success) / <alpha-value>)",
-          foreground: "hsl(var(--success-foreground) / <alpha-value>)",
-          "filled-foreground": "hsl(var(--success-filled-foreground) / <alpha-value>)",
+        primary: {
+          DEFAULT: "hsl(var(--primary) / <alpha-value>)",
+          text: "hsl(var(--primary-text) / <alpha-value>)",
+        },
+
+        secondary: {
+          DEFAULT: "hsl(var(--secondary) / <alpha-value>)",
+          text: "hsl(var(--secondary-text) / <alpha-value>)",
         },
 
         info: {
           DEFAULT: "hsl(var(--info) / <alpha-value>)",
-          foreground: "hsl(var(--info-foreground) / <alpha-value>)",
-          "filled-foreground": "hsl(var(--info-filled-foreground) / <alpha-value>)",
+          text: "hsl(var(--info-text) / <alpha-value>)",
         },
 
         warning: {
           DEFAULT: "hsl(var(--warning) / <alpha-value>)",
-          foreground: "hsl(var(--warning-foreground) / <alpha-value>)",
-          "filled-foreground": "hsl(var(--warning-filled-foreground) / <alpha-value>)",
+          text: "hsl(var(--warning-text) / <alpha-value>)",
         },
 
         danger: {
           DEFAULT: "hsl(var(--danger) / <alpha-value>)",
-          foreground: "hsl(var(--danger-foreground) / <alpha-value>)",
-          "filled-foreground": "hsl(var(--danger-filled-foreground) / <alpha-value>)",
+          text: "hsl(var(--danger-text) / <alpha-value>)",
         },
 
-        border: "hsl(var(--border) / <alpha-value>)",
-        input: "hsl(var(--input-border) / <alpha-value>)",
+        success: {
+          DEFAULT: "hsl(var(--success) / <alpha-value>)",
+          text: "hsl(var(--success-text) / <alpha-value>)",
+        },
+
+        "input-border": "hsl(var(--input-border) / <alpha-value>)",
         ring: "hsl(var(--ring) / <alpha-value>)",
       },
     },
   },
-  plugins: [],
 }
 
 ```
@@ -202,7 +190,7 @@ export default {
 
 <Step>
   ### That's it
-
+  
   You can now start adding components to your project. Check out the [components](/docs/accordion) section to learn more about the available components.
 
 </Step>

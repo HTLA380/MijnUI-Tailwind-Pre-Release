@@ -2,78 +2,36 @@
 title: Accordion
 ---
 
-import {
-  AccordionActive,
-  AccordionClosed,
-} from "../../components/accordion-example"
-
 ---
 
-### Accordion Closed
+import CodePreviewer from "../../components/preview"
 
-<AccordionClosed />
+### Default Accordion
 
-```html title="accordion-closed.html"
-<div class="w-full max-w-80">
-  <div class="w-full border-b">
-    <h3 class="flex">
-      <button
-        type="button"
-        class="group flex w-full items-center justify-between py-3">
-        Is it accessible
-        <svg
-          stroke="currentColor"
-          fill="none"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="h-4 w-4 shrink-0 text-muted-foreground"
-          height="1em"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg">
-          <path d="m6 9 6 6 6-6"></path>
-        </svg>
-      </button>
-    </h3>
-  </div>
-</div>
+<CodePreviewer src="/html/accordion/accordion.html" />
+
+```json doc-gen:file
+{
+  "file": "./public/html/accordion/accordion.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"accordion.html\""
+  }
+}
 ```
 
 ---
 
 ### Accordion Active
 
-<AccordionActive />
+<CodePreviewer src="/html/accordion/accordion-active.html" />
 
-```html title="accordion-active.html"
-<div class="w-full max-w-80">
-  <div class="w-full border-b">
-    <h3 class="flex">
-      <button
-        type="button"
-        class="group flex w-full items-center justify-between py-3">
-        Is it accessible
-        <svg
-          stroke="currentColor"
-          fill="none"
-          stroke-width="2"
-          viewBox="0 0 24 24"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="h-4 w-4 shrink-0 rotate-180 text-muted-foreground"
-          height="1em"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg">
-          <path d="m6 9 6 6 6-6"></path>
-        </svg>
-      </button>
-    </h3>
-    <div class="text-sm">
-      <div class="pb-3 pt-0 text-muted-foreground">
-        Yes. It adheres to the WAI-ARIA design pattern.
-      </div>
-    </div>
-  </div>
-</div>
+```json doc-gen:file
+{
+  "file": "./public/html/accordion/accordion-active.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"accordion-active.html\""
+  }
+}
 ```

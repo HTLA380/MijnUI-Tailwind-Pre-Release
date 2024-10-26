@@ -22,14 +22,20 @@ export default async function Page({
 
   return (
     <DocsPage toc={page.data.toc} full={page.data.full}>
-      <DocsTitle className="text-4xl pt-12 font-extrabold">
+      <DocsTitle className="pt-12 text-4xl font-extrabold">
         {page.data.title}
       </DocsTitle>
       <DocsDescription className="mb-0 text-lg">
         {page.data.description}
       </DocsDescription>
       <DocsBody className="prose">
-        <MDX components={{ ...defaultMdxComponents, Tabs, Tab }} />
+        <MDX
+          components={{
+            ...defaultMdxComponents,
+            Tabs,
+            Tab,
+          }}
+        />
       </DocsBody>
     </DocsPage>
   )

@@ -1,119 +1,67 @@
 ---
 title: Buttons
-root: true
-defaultOpen: true
 ---
 
-import {
-  ButtonRadius,
-  ButtonSizes,
-  ButtonVariants,
-} from "../../components/button-example.tsx"
+import CodePreviewer from "../../components/preview"
 
 ---
 
-### Variants
+### Default Button
 
-<ButtonVariants />
+<CodePreviewer src="/html/button/button.html" />
 
-```html title="button-variants.html"
-<!-- Primary -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-md bg-primary px-3 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
+```json doc-gen:file
+{
+  "file": "./public/html/button/button.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"button.html\""
+  }
+}
+```
 
-<!-- Secondary -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-md bg-secondary px-3 text-sm text-secondary-foreground transition-colors duration-150 hover:bg-secondary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
+### Button Variants
 
-<!-- Surface -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-md bg-surface px-3 text-sm text-surface-foreground shadow-sm transition-colors duration-150 hover:bg-surface/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
+<CodePreviewer src="/html/button/button-variants.html" />
 
-<!-- Ghost -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-md px-3 text-sm transition-colors duration-150 hover:bg-accent hover:text-accent-foreground active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
-
-<!-- Outline -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-md border border-border px-3 text-sm transition-colors duration-150 hover:bg-accent hover:text-accent-foreground active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
-
-<!-- Danger -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-md bg-danger px-3 text-sm text-danger-filled-foreground transition-colors duration-150 hover:bg-danger/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
+```json doc-gen:file
+{
+  "file": "./public/html/button/button-variants.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"button-variants.html\""
+  }
+}
 ```
 
 ---
 
 ### Sizes
 
-<ButtonSizes />
+<CodePreviewer src="/html/button/button-sizes.html" />
 
-```html title="button-sizes.html"
-<!-- Small -->
-<button
-  class="inline-flex h-8 items-center justify-center gap-1 rounded-md bg-primary px-2.5 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
-
-<!-- Medium -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-md bg-primary px-3 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
-
-<!-- Large -->
-<button
-  class="inline-flex h-11 items-center justify-center gap-1 rounded-md bg-primary px-8 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
-
-<!-- Icon -->
-<button
-  class="inline-flex h-10 w-10 items-center justify-center gap-1 rounded-md bg-primary text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  B
-</button>
+```json doc-gen:file
+{
+  "file": "./public/html/button/button-sizes.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"button-sizes.html\""
+  }
+}
 ```
 
 ---
 
 ### Radius
 
-<ButtonRadius />
+<CodePreviewer src="/html/button/button-radius.html" />
 
-```html title="button-radius.html"
-<!-- Small -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-sm bg-primary px-3 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
-
-<!-- Medium -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-md bg-primary px-3 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
-
-<!-- Large -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-lg bg-primary px-3 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
-
-<!-- Full -->
-<button
-  class="inline-flex h-10 items-center justify-center gap-1 rounded-full bg-primary px-3 text-sm text-primary-foreground transition-colors duration-150 hover:bg-primary/90 active:brightness-95 disabled:pointer-events-none disabled:opacity-80 disabled:brightness-75">
-  Button
-</button>
+```json doc-gen:file
+{
+  "file": "./public/html/button/button-radius.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"button-radius.html\""
+  }
+}
 ```

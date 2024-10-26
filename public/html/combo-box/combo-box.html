@@ -1,0 +1,57 @@
+<div classname="flex flex-col justify-center gap-1">
+  <button
+    type="button"
+    role="combobox"
+    classname="flex h-10 w-44 items-center justify-between rounded-md border bg-surface px-3 py-2 text-sm placeholder:text-neutral-text focus:border-text focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1">
+    <span>Select Fruits</span>
+    <svg
+      stroke="currentColor"
+      fill="none"
+      viewBox="0 0 24 24"
+      height="1em"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+      strokewidth="{2}"
+      strokelinecap="round"
+      strokelinejoin="round">
+      <path d="m7 15 5 5 5-5" />
+      <path d="m7 9 5-5 5 5" />
+    </svg>
+  </button>
+  <div classname="w-44 rounded-lg border bg-surface p-1 text-sm text-main-text">
+    <button
+      aria-current="true"
+      type="button"
+      classname="inline-flex w-full cursor-pointer items-center justify-between gap-2 rounded-md bg-accent px-4 py-2 text-left text-sm text-accent-text disabled:pointer-events-none disabled:cursor-default">
+      Apple
+      <svg
+        stroke="currentColor"
+        fill="none"
+        strokewidth="{2}"
+        viewBox="0 0 24 24"
+        strokelinecap="round"
+        strokelinejoin="round"
+        height="1em"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg">
+        <polyline points="20 6 9 17 4 12" />
+      </svg>
+    </button>
+    <button
+      type="button"
+      classname="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-text disabled:pointer-events-none disabled:cursor-default">
+      Berry
+    </button>
+    <button
+      type="button"
+      classname="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-text disabled:pointer-events-none disabled:cursor-default">
+      Orange
+    </button>
+    <button
+      type="button"
+      disabled=""
+      classname="w-full cursor-pointer rounded-md px-4 py-2 text-left text-sm hover:bg-accent hover:text-accent-text disabled:pointer-events-none disabled:cursor-default disabled:bg-surface disabled:opacity-50">
+      Melon
+    </button>
+  </div>
+</div>

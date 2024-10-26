@@ -4,84 +4,71 @@ import { createPreset } from "fumadocs-ui/tailwind-plugin"
 export default {
   content: [
     "./mijnui-react/**/*.{ts,tsx}",
+    "./public/**/*.html",
     "./app/**/*.{ts,tsx}",
-    "./content/**/*.{ts,tsx,md,mdx}",
+    "./content/**/*.{ts,tsx,md,mdx,html}",
     "./mdx-components.{ts,tsx}",
     "./node_modules/fumadocs-ui/dist/**/*.js",
-    "./.storybook/preview.tsx",
   ],
   presets: [createPreset()],
   theme: {
     extend: {
       colors: {
-        background: "hsl(var(--background) / <alpha-value>)",
-
-        foreground: "hsl(var(--foreground) / <alpha-value>)",
-
-        muted: {
-          DEFAULT: "hsl(var(--muted) / <alpha-value>)",
-          foreground: "hsl(var(--muted-foreground) / <alpha-value>)",
+        main: {
+          DEFAULT: "hsl(var(--main) / <alpha-value>)",
+          text: "hsl(var(--main-text) / <alpha-value>)",
+          border: "hsl(var(--main-border) / <alpha-value>)",
         },
 
         surface: {
           DEFAULT: "hsl(var(--surface) / <alpha-value>)",
-          foreground: "hsl(var(--surface-foreground) / <alpha-value>)",
+          text: "hsl(var(--surface-text) / <alpha-value>)",
         },
 
-        primary: {
-          DEFAULT: "hsl(var(--primary) / <alpha-value>)",
-          foreground: "hsl(var(--primary-foreground) / <alpha-value>)",
-        },
-
-        secondary: {
-          DEFAULT: "hsl(var(--secondary) / <alpha-value>)",
-          foreground: "hsl(var(--secondary-foreground) / <alpha-value>)",
+        neutral: {
+          DEFAULT: "hsl(var(--neutral) / <alpha-value>)",
+          text: "hsl(var(--neutral-text) / <alpha-value>)",
         },
 
         accent: {
           DEFAULT: "hsl(var(--accent) / <alpha-value>)",
-          foreground: "hsl(var(--accent-foreground) / <alpha-value>)",
+          text: "hsl(var(--accent-text) / <alpha-value>)",
         },
 
-        success: {
-          DEFAULT: "hsl(var(--success) / <alpha-value>)",
-          foreground: "hsl(var(--success-foreground) / <alpha-value>)",
-          "filled-foreground":
-            "hsl(var(--success-filled-foreground) / <alpha-value>)",
+        primary: {
+          DEFAULT: "hsl(var(--primary) / <alpha-value>)",
+          text: "hsl(var(--primary-text) / <alpha-value>)",
+        },
+
+        secondary: {
+          DEFAULT: "hsl(var(--secondary) / <alpha-value>)",
+          text: "hsl(var(--secondary-text) / <alpha-value>)",
         },
 
         info: {
           DEFAULT: "hsl(var(--info) / <alpha-value>)",
-          foreground: "hsl(var(--info-foreground) / <alpha-value>)",
-          "filled-foreground":
-            "hsl(var(--info-filled-foreground) / <alpha-value>)",
+          text: "hsl(var(--info-text) / <alpha-value>)",
         },
 
         warning: {
           DEFAULT: "hsl(var(--warning) / <alpha-value>)",
-          foreground: "hsl(var(--warning-foreground) / <alpha-value>)",
-          "filled-foreground":
-            "hsl(var(--warning-filled-foreground) / <alpha-value>)",
+          text: "hsl(var(--warning-text) / <alpha-value>)",
         },
 
         danger: {
           DEFAULT: "hsl(var(--danger) / <alpha-value>)",
-          foreground: "hsl(var(--danger-foreground) / <alpha-value>)",
-          "filled-foreground":
-            "hsl(var(--danger-filled-foreground) / <alpha-value>)",
+          text: "hsl(var(--danger-text) / <alpha-value>)",
         },
 
-        border: "hsl(var(--border) / <alpha-value>)",
-        input: "hsl(var(--input-border) / <alpha-value>)",
+        success: {
+          DEFAULT: "hsl(var(--success) / <alpha-value>)",
+          text: "hsl(var(--success-text) / <alpha-value>)",
+        },
 
         kanban: "hsl(var(--kanban) / <alpha-value>)",
+        "input-border": "hsl(var(--input-border) / <alpha-value>)",
         ring: "hsl(var(--ring) / <alpha-value>)",
       },
-
-      borderRadius: {
-        default: "0.25rem",
-      },
-
       transitionDuration: {
         400: "400ms",
       },

@@ -4,148 +4,82 @@ title: Avatar
 
 ---
 
-import {
-  AvatarFallbackSizes,
-  AvatarGroup,
-  AvatarSizes,
-} from "../../components/avatar-example.tsx"
+import CodePreviewer from "../../components/preview"
+
+### Default Avatar
+
+<CodePreviewer src="/html/avatar/avatar.html" />
+
+```json doc-gen:file
+{
+  "file": "./public/html/avatar/avatar.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"avatar.html\""
+  }
+}
+```
+
+---
+
+### Avatar Fallback
+
+<CodePreviewer src="/html/avatar/avatar-fallback.html" />
+
+```json doc-gen:file
+{
+  "file": "./public/html/avatar/avatar-fallback.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"avatar-fallback.html\""
+  }
+}
+```
+
+---
 
 ### Avatar Sizes
 
-<AvatarSizes />
+<CodePreviewer src="/html/avatar/avatar-sizes.html" />
 
-```html title="avatar.html"
-<!-- size xs -->
-<div className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-6 w-6 text-xs">
-  <img
-    src={"/avatar/avatar-3.png"}
-    alt="anthony"
-    className="h-full w-full object-cover"
-  />
-</div>
-
-<!-- size sm -->
-<div className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-8 w-8 text-xs">
-  <img
-    src={"/avatar/avatar-3.png"}
-    alt="anthony"
-    className="h-full w-full object-cover"
-  />
-</div>
-
-<!-- size md -->
-<div className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-10 w-10 text-sm">
-  <img
-    src={"/avatar/avatar-3.png"}
-    alt="anthony"
-    className="h-full w-full object-cover"
-  />
-</div>
-
-<!-- size lg -->
-<div className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-12 w-12 text-sm">
-  <img
-    src={"/avatar/avatar-3.png"}
-    alt="anthony"
-    className="h-full w-full object-cover"
-  />
-</div>
-
-<!-- size xl -->
-<div className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-14 w-14 text-sm">
-  <img
-    src={"/avatar/avatar-3.png"}
-    alt="anthony"
-    className="h-full w-full object-cover"
-  />
-</div>
-
-<!-- size xxl -->
-<div className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-16 w-16 text-sm">
-  <img
-    src={"/avatar/avatar-3.png"}
-    alt="anthony"
-    className="h-full w-full object-cover"
-  />
-</div>
+```json doc-gen:file
+{
+  "file": "./public/html/avatar/avatar-sizes.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"avatar-sizes.html\""
+  }
+}
 ```
 
 ---
 
 ### Avatar Fallback Sizes
 
-<AvatarFallbackSizes />
+<CodePreviewer src="/html/avatar/avatar-fallback-sizes.html" />
 
-```html
-<!-- size xs -->
-<div
-  className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-6 w-6 text-xs">
-  <span>A</span>
-</div>
-
-<!-- size sm -->
-<div
-  className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-8 w-8 text-xs">
-  <span>A</span>
-</div>
-
-<!-- size md -->
-<div
-  className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-10 w-10 text-sm">
-  <span>A</span>
-</div>
-
-<!-- size lg -->
-<div
-  className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-12 w-12 text-sm">
-  <span>A</span>
-</div>
-
-<!-- size xl -->
-<div
-  className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-14 w-14 text-sm">
-  <span>A</span>
-</div>
-
-<!-- size xxl -->
-<div
-  className="relative flex items-center justify-center shrink-0 overflow-hidden bg-muted rounded-full h-16 w-16 text-sm">
-  <span>A</span>
-</div>
+```json doc-gen:file
+{
+  "file": "./public/html/avatar/avatar-fallback-sizes.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"avatar-fallback-sizes.html\""
+  }
+}
 ```
 
 ---
 
 ### AvatarGroup
 
-<AvatarGroup />
+<CodePreviewer src="/html/avatar/avatar-group.html" />
 
-```html title="avatar-group.html"
-<div className="-space-x-2 flex items-center justify-center">
-  <div
-    className="relative flex items-center justify-center shrink-0 overflow-hidden ring-muted-foreground bg-muted rounded-full ring-1 h-8 w-8 text-xs">
-    <img
-      alt="avatar"
-      src="/avatar/avatar-1.png"
-      className="h-full w-full object-cover" />
-  </div>
-  <div
-    className="relative flex items-center justify-center shrink-0 overflow-hidden ring-muted-foreground bg-muted rounded-full ring-1 h-8 w-8 text-xs">
-    <img
-      alt="avatar"
-      src="/avatar/avatar-2.png"
-      className="h-full w-full object-cover" />
-  </div>
-  <div
-    className="relative flex items-center justify-center shrink-0 overflow-hidden ring-muted-foreground bg-muted rounded-full ring-1 h-8 w-8 text-xs">
-    <img
-      alt="avatar"
-      src="/avatar/avatar-3.png"
-      className="h-full w-full object-cover" />
-  </div>
-  <div
-    className="!ml-1.5 flex items-center justify-center text-sm text-muted-foreground">
-    +3
-  </div>
-</div>
+```json doc-gen:file
+{
+  "file": "./public/html/avatar/avatar-group.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"avatar-group.html\""
+  }
+}
 ```

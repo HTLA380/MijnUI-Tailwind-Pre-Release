@@ -4,104 +4,34 @@ title: Stepper
 
 ---
 
-import { ActiveStepper, DefaultStepper } from "../../components/stepper-example"
+import CodePreviewer from "../../components/preview"
 
-### Default Stepper
+### Default Alert
 
-<DefaultStepper />
+<CodePreviewer src="/html/stepper/stepper.html" />
 
-```html title="stepper.html"
-<div
-  class="flex w-full max-w-xl flex-col items-center justify-center gap-2 sm:flex-row">
-  <!-- /* ------------------------------ Current Step ------------------------------ */ -->
-  <div class="flex w-full flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border border-foreground bg-surface text-sm">
-      1
-    </button>
-    <div class="h-8 w-px bg-border sm:h-px sm:w-full sm:max-w-40"></div>
-  </div>
-
-  <div class="flex w-full flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border text-sm text-muted-foreground">
-      2
-    </button>
-    <div class="h-8 w-px bg-border sm:h-px sm:w-full sm:max-w-40"></div>
-  </div>
-  <div class="flex w-full flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border text-sm text-muted-foreground">
-      3
-    </button>
-    <div class="h-8 w-px bg-border sm:h-px sm:w-full sm:max-w-40"></div>
-  </div>
-
-  <div class="flex w-full flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border text-sm text-muted-foreground">
-      4
-    </button>
-    <div class="h-8 w-px bg-border sm:h-px sm:w-full sm:max-w-40"></div>
-  </div>
-
-  <div class="flex flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border text-sm text-muted-foreground">
-      5
-    </button>
-  </div>
-</div>
+```json doc-gen:file
+{
+  "file": "./public/html/stepper/stepper.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"stepper.html\""
+  }
+}
 ```
 
 ---
 
 ### Active Stepper
 
-<ActiveStepper />
+<CodePreviewer src="/html/stepper/stepper-active.html" />
 
-```html title="stepper.html"
-<div
-  class="flex w-full max-w-xl flex-col items-center justify-center gap-2 sm:flex-row">
-  <!-- /* ------------------------------- Active Step ------------------------------ */ -->
-  <div class="flex w-full flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border border-foreground bg-foreground text-sm text-background">
-      1
-    </button>
-    <div class="h-8 w-px bg-foreground sm:h-px sm:w-full sm:max-w-40"></div>
-  </div>
-
-  <!-- /* ------------------------------ Current Step ------------------------------ */ -->
-  <div class="flex w-full flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border border-foreground bg-surface text-sm">
-      2
-    </button>
-    <div class="h-8 w-px bg-border sm:h-px sm:w-full sm:max-w-40"></div>
-  </div>
-
-  <div class="flex w-full flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border text-sm text-muted-foreground">
-      3
-    </button>
-    <div class="h-8 w-px bg-border sm:h-px sm:w-full sm:max-w-40"></div>
-  </div>
-
-  <div class="flex w-full flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border text-sm text-muted-foreground">
-      4
-    </button>
-    <div class="h-8 w-px bg-border sm:h-px sm:w-full sm:max-w-40"></div>
-  </div>
-
-  <div class="flex flex-col items-center gap-2 sm:flex-row">
-    <button
-      class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full border text-sm text-muted-foreground">
-      5
-    </button>
-  </div>
-</div>
+```json doc-gen:file
+{
+  "file": "./public/html/stepper/stepper-active.html",
+  "codeblock": {
+    "lang": "html",
+    "meta": "title=\"stepper-active.html\""
+  }
+}
 ```
