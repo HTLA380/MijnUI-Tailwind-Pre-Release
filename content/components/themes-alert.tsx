@@ -8,7 +8,7 @@ import {
 } from "@/mijnui-react/ui/alert"
 import { LuAlertCircle } from "react-icons/lu"
 
-const ThemesVariableAlert = () => {
+export const ThemesVariableAlert = () => {
   return (
     <Alert
       className="not-prose preview w-full backdrop-blur-md"
@@ -31,4 +31,20 @@ const ThemesVariableAlert = () => {
   )
 }
 
-export default ThemesVariableAlert
+export const ThemesBuilderNotAvailableAlert = () => {
+  return (
+    <Alert
+      className="not-prose preview w-full backdrop-blur-md"
+      variant="default"
+      status="warning">
+      <AlertIcon>
+        <LuAlertCircle />
+      </AlertIcon>
+      <AlertTitle>Creating your own theme</AlertTitle>
+      <AlertDescription>
+        The theme builder is currently not available and will be available soon.
+        Stay tuned for updates!
+      </AlertDescription>
+    </Alert>
+  )
+}
