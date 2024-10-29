@@ -54,6 +54,7 @@ const Navbar = () => {
             className="border px-2"
             asChild>
             <Link
+              target="_blank"
               href={"https://github.com/HTLA380/MijnUI-Tailwind-Pre-Release"}>
               <LuGithub size={18} />
             </Link>
